@@ -2,7 +2,7 @@ import pandas as pd
 from sklearn.metrics import roc_auc_score
 from sklearn.model_selection import train_test_split
 from sklearn.preprocessing import LabelEncoder, MinMaxScaler
-
+from pipeline.load import data_loader
 
 df = data_loader('./data/laptops.csv')
 
